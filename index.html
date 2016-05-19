@@ -1,13 +1,22 @@
 <!doctype html>
-<html lang="en" ng-app="helloWorldApp">
+<html lang="en" ng-app="angularAlso">
 <head>
     <meta charset="UTF-8">
     <title>Angular Also</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
+<div ng-view></div>
 
+<!-- build:js(.) js/vendor.js -->
 <!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
 
 <!-- endbower -->
+<!-- endbuild --><!-- endbower -->
 </body>
 </html>
